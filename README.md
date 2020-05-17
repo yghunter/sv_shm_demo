@@ -2,7 +2,7 @@
 system V shared memory demo in linux
 
 # compile  
-gcc svshm_xfr_writer.c binary_sems.c -o writer_shm  
+gcc svshm_reader.c binary_sems.c -o reader_shm  
 
 gcc sv_shm_writer.c binary_sems.c -o writer_shm  
 
